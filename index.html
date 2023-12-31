@@ -6,25 +6,21 @@
     
     <title>Nay Personal Website</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e1da76a482.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div id="header">
-      <div class="container">
+ <div id="header">
+    <div class="container">
       <nav>
         <img src="images/logo.png" class="logo">
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">CONTACT</a></li>
-      </ul>
-           </nav>
-           <div class="header-text">
-            <p>Software Engineer</p>
-            <h1>Hi, I'm <span>Dejanee</span><br>from Brooklyn, New York</h1>
+ </nav>
+        <div class="header-text">
+       <p>Software Engineer</p>
+       <h1>Hi, I'm <span>Dejanee</span><br>from Brooklyn, New York</h1>
 </div>
 </div>
 </div>
-  <!-----------------------about----------------------->
+  <!-- --------------------about-------------------- -->
   <div id="about">
     <div class="container">
       <div class="row">
@@ -32,14 +28,40 @@
       <img src="images\whiteoutfit.png">
       </div>
       <div class="about-col-2">
-        <h1>About Me</h1>
+        <h1 class="sub-title">About Me</h1>
     <p>Hi my name is Dejanee Gomez, I was born and raised in Brooklyn Newyork. 
     I am a mom, a sailor in the Navy out of Virginia and i've been in for 7 years.
      The path that i am on includes getting out of the navy and pursuing Software Engineering as my new career.</p>
-      </div>
- </div>
- </div>
+</div>
   </div>
- <script src="script.js"></script>
-  </body>
+  </div>
+  </div>
+<!-- -----------------------contact----------------- -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i> Dejaneegomez@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i> (917)-582-1468</p>
+        <div class="social-icons">
+        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script>const h2 = document.createElement("h2");
+    h2.textContent = "This content added by Javascript";
+    document.querySelector("body").appendChild(h2);
+    
+    const input = document.getElementById("button");
+    input.addEventListener("click", function() {
+     alert("i was clicked!");
+    });
+    </script>
+   <footer>
+   <script src="script.js"></script>
+   </footer>
+    </body>
    </html>
